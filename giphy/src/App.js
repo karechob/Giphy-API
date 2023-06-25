@@ -1,10 +1,14 @@
 import './App.css';
-import GifGrid from './components/GifGrid';
+import AppComponent from './components/AppComponent';
+// import GifGrid from './components/GifGrid';
 
 function App() {
   return (
     <div>
-      <GifGrid/>
+      <AppComponent />
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      </style>
     </div>
   );
 }
