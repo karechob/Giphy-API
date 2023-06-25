@@ -25,6 +25,7 @@ h1 {
 h2 {
   margin: 0;
   margin-top: 30px;
+  padding-top: 10px;
   margin-bottom: 0px;
   text-align: center;
   color: rgb(252, 237, 237);
@@ -113,8 +114,8 @@ input[type=checkbox]:hover {
   box-shadow:0px 0px 20px white;
 }
 input[type=checkbox] {
-  height: 15px;
-  width: 15px;
+  height: 18px;
+  width: 18px;
   transition: .4s ease-out;
   margin-right: 10px;
   accent-color: #ff5d5d
@@ -122,4 +123,19 @@ input[type=checkbox] {
 .checkbox-desc{
   color: #fffbfb;
   margin-right: 40px;
+}
+.form-check {
+  background-color: rgba(240, 248, 255, 0.462);
+  border-radius: 30px;  
+  padding-bottom: 10px;
+}
+.home-icon {
+  padding-right: 20px;
+}
+.home-btn:hover {
+  background-color: rgba(150, 43, 226, 0.336);
+  border-color: rgba(213, 154, 255, 0.504);
+}
+.home-btn {
+  margin-right: 10px;
 }
